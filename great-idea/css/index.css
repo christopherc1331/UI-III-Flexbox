@@ -64,3 +64,223 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+	width: 880px;
+	/* TB LR */
+	margin: 0 auto;
+  }
+  
+  /* header */
+  header {
+	  display: flex;
+	  flex-wrap: wrap;
+	  align-items: center;
+	  margin-top: 35px;
+	  justify-content: space-between;
+  }
+  header nav {
+	display: flex;
+	width: 691px;
+	vertical-align: top;
+  }
+  
+  header nav a {
+	margin-right: 65px;
+	font-size: 14px;
+	color: gray;
+	text-decoration: none;
+  }
+  
+  header nav a:hover {
+	text-decoration: underline;
+  }
+  
+  header nav a:first-child {
+	margin-left: 0;
+  }
+  
+  header nav a:last-child {
+	margin-right: 0;
+  }
+  
+
+  
+  /* cta */
+  
+  .cta .cta-text {
+	margin: 20px;
+	display: flex;
+	font-size: 77px;
+	flex-direction: column;
+	width: 400px;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+  }
+
+  .cta {
+	  height: 400px;
+	  display: flex;
+	  align-items: center;
+	  margin: 20px 0px;
+  }
+  
+  .cta .cta-text button {
+	background: white;
+	vertical-align: top;
+	margin-top: 6px;
+	padding: 8px 44px;
+	font-size: 17px;
+	border: 1px solid black;
+	cursor: pointer;
+  }
+  
+  .cta .cta-text button:hover {
+	background: black;
+	color: white;
+  }
+  
+  .main-content {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+  }
+  
+  .main-content .top-content {
+	width: 880px;
+	height: 160px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+  }
+  
+  
+  .main-content .bottom-content {
+	width: 880px;
+	height: 195px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+  }
+  
+  .main-content .bottom-content .text-content {
+	  padding-right: 20px;
+  }
+  
+  
+  .contact {
+	height: 215px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+  }
+  .contact h4, .contact p {
+	  margin: 7px;
+  }
+  
+  
+  footer {	
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+	  margin-bottom: 35px;
+  }
+
+/* BELOW IS STYLING FOR "SERVICES" PAGE */
+
+.container .services-header {
+	height: 400px;
+}
+
+.container .services-header h1 {
+	font-size: 20px;
+	margin-bottom: 0px;
+}
+
+
+.services-main-content {
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.services-main-content button {
+	background: white;
+	vertical-align: top;
+	margin-top: 6px;
+	padding: 5px 20px;
+	font-size: 17px;
+	border: 1px solid black;
+	cursor: pointer;
+}
+
+.services-main-content .text-content {
+	border: 1px solid black;
+	padding: 15px 20px;
+	height: 230px;
+	width: 425px;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+	align-items: center;	
+}
+
+.services-main-content .tc1 {
+	margin-right: 30px;
+}
+
+.services-main-content .gap {
+	margin-bottom: 30px;
+}
+
+.container .services-bottom-content h1 {
+	font-size: 20px;
+	margin-bottom: 0px;
+}
+
+.container .services-bottom-content {
+	width: 425px;
+	height: 300px;
+	margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.bottom-list li {
+	list-style: square inside ;
+}
+
+.container .services-bottom-content .chunk1 {
+	display: flex;
+	flex-direction: column;
+	height: 302.4px;
+	width: 425px;
+	margin-right: 35px;
+}
+
+.container .services-bottom-content h1{
+	margin-bottom: 15px;
+}
+
+.container .services-bottom-content p{
+	margin-bottom: 30px;
+}
+.container .services-bottom-content .bottom-list li {
+	margin-bottom: 5px;
+}
+
+.services-footer {	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 15px;
+	margin-top: 50px;
+}
